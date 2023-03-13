@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     @State var selection = "Каталог"
     var tabView = ["Профиль", "Каталог", "Избранное", "Корзина"]
     

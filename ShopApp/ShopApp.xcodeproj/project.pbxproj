@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		A5185F5A29BA07D700642F34 /* UnitProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5185F5929BA07D700642F34 /* UnitProductView.swift */; };
 		A5185F5C29BA101200642F34 /* ListProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5185F5B29BA101200642F34 /* ListProductView.swift */; };
+		A5C4FB7129BE1FC200435495 /* ElectedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4FB7029BE1FC200435495 /* ElectedButtonView.swift */; };
+		A5C4FB7329BF396500435495 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4FB7229BF396500435495 /* ListView.swift */; };
+		A5E4556C29BBC24700213218 /* EntryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4556B29BBC24700213218 /* EntryButtonView.swift */; };
+		A5E4556E29BC024400213218 /* RegisterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4556D29BC024400213218 /* RegisterButtonView.swift */; };
+		A5E4557129BC0BF500213218 /* BusketButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4557029BC0BF500213218 /* BusketButton.swift */; };
 		A5F0B19929B9CEC70029285C /* ShopAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B19829B9CEC70029285C /* ShopAppApp.swift */; };
 		A5F0B19B29B9CEC70029285C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0B19A29B9CEC70029285C /* ContentView.swift */; };
 		A5F0B19D29B9CEC90029285C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F0B19C29B9CEC90029285C /* Assets.xcassets */; };
@@ -23,6 +28,11 @@
 /* Begin PBXFileReference section */
 		A5185F5929BA07D700642F34 /* UnitProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitProductView.swift; sourceTree = "<group>"; };
 		A5185F5B29BA101200642F34 /* ListProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductView.swift; sourceTree = "<group>"; };
+		A5C4FB7029BE1FC200435495 /* ElectedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectedButtonView.swift; sourceTree = "<group>"; };
+		A5C4FB7229BF396500435495 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A5E4556B29BBC24700213218 /* EntryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryButtonView.swift; sourceTree = "<group>"; };
+		A5E4556D29BC024400213218 /* RegisterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButtonView.swift; sourceTree = "<group>"; };
+		A5E4557029BC0BF500213218 /* BusketButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusketButton.swift; sourceTree = "<group>"; };
 		A5F0B19529B9CEC70029285C /* ShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F0B19829B9CEC70029285C /* ShopAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAppApp.swift; sourceTree = "<group>"; };
 		A5F0B19A29B9CEC70029285C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +56,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A598D97F29BBC1BB007C9E8F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B1A929B9D51F0029285C /* ProfileView.swift */,
+				A5E4556B29BBC24700213218 /* EntryButtonView.swift */,
+				A5E4556D29BC024400213218 /* RegisterButtonView.swift */,
+				A5C4FB7229BF396500435495 /* ListView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A5E4556F29BC0B1F00213218 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B1AF29B9D5910029285C /* BasketView.swift */,
+				A5E4557029BC0BF500213218 /* BusketButton.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
 		A5F0B18C29B9CEC70029285C = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +124,11 @@
 			isa = PBXGroup;
 			children = (
 				A5F0B19A29B9CEC70029285C /* ContentView.swift */,
-				A5F0B1A929B9D51F0029285C /* ProfileView.swift */,
+				A598D97F29BBC1BB007C9E8F /* Profile */,
 				A5F0B1B329B9FCDB0029285C /* Catalog */,
 				A5F0B1AD29B9D5680029285C /* ElectedView.swift */,
-				A5F0B1AF29B9D5910029285C /* BasketView.swift */,
+				A5C4FB7029BE1FC200435495 /* ElectedButtonView.swift */,
+				A5E4556F29BC0B1F00213218 /* Basket */,
 				A5F0B1B129B9F2E60029285C /* TabItemView.swift */,
 			);
 			path = View;
@@ -190,15 +221,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E4556C29BBC24700213218 /* EntryButtonView.swift in Sources */,
 				A5185F5A29BA07D700642F34 /* UnitProductView.swift in Sources */,
 				A5F0B1B029B9D5910029285C /* BasketView.swift in Sources */,
 				A5F0B1B229B9F2E60029285C /* TabItemView.swift in Sources */,
 				A5185F5C29BA101200642F34 /* ListProductView.swift in Sources */,
 				A5F0B19B29B9CEC70029285C /* ContentView.swift in Sources */,
+				A5C4FB7129BE1FC200435495 /* ElectedButtonView.swift in Sources */,
 				A5F0B1AA29B9D51F0029285C /* ProfileView.swift in Sources */,
 				A5F0B1AE29B9D5680029285C /* ElectedView.swift in Sources */,
+				A5C4FB7329BF396500435495 /* ListView.swift in Sources */,
 				A5F0B1AC29B9D5390029285C /* CatalogView.swift in Sources */,
+				A5E4556E29BC024400213218 /* RegisterButtonView.swift in Sources */,
 				A5F0B19929B9CEC70029285C /* ShopAppApp.swift in Sources */,
+				A5E4557129BC0BF500213218 /* BusketButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

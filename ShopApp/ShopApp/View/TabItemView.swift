@@ -12,7 +12,6 @@ struct TabItemView: View {
     @State var currentTabView: Any?
     
     var body: some View {
-        
         Button {
             currentTabView = CatalogView()
         } label: {

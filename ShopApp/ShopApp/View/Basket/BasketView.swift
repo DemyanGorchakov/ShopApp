@@ -1,5 +1,5 @@
 //
-//  ElectedView.swift
+//  BasketView.swift
 //  ShopApp
 //
 //  Created by Демьян Горчаков on 09.03.2023.
@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-struct ElectedView: View {
+struct BasketView: View {
     var body: some View {
         VStack{
-            Image("Selected")
+            Image("Basket")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 250, height: 300)
-            Text("В избранном пусто")
+                .frame(width: 300, height: 300)
+            Text("Ваша корзина пуста")
                 .font(.system(size: 20))
                 .fontWeight(.medium)
             Text("Положите сюда свои будущие покупки")
-            ElectedButtonView()
+            BusketButton()
         }
     }
 }
 
-struct ElectedView_Previews: PreviewProvider {
+struct BasketView_Previews: PreviewProvider {
     static var previews: some View {
-        ElectedView()
+        BasketView()
     }
 }

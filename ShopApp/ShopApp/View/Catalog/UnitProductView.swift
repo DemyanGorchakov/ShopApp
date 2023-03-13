@@ -13,7 +13,6 @@ struct UnitProductView: View {
     var description: String
     
     var body: some View {
-        
         HStack{
             Image(imageCatalog)
                 .resizable()
