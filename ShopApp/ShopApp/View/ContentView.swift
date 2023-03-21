@@ -12,12 +12,12 @@ struct ContentView: View {
     var tabView = ["Профиль", "Каталог", "Избранное", "Корзина"]
     
     var body: some View {
-            VStack{
+            VStack {
                 TabView(selection: $selection) {
                     ProfileView()
                         .tag("Профиль")
                         .tabItem {
-                            VStack{
+                            VStack {
                                 Image(systemName: "person")
                                 Text("Профиль")
                             }
@@ -25,7 +25,7 @@ struct ContentView: View {
                     CatalogView()
                         .tag("Каталог")
                         .tabItem {
-                            VStack{
+                            VStack {
                                 Image(systemName: "list.bullet")
                                 Text("Каталог")
                             }
@@ -33,7 +33,7 @@ struct ContentView: View {
                     ElectedView()
                         .tag("Избранное")
                         .tabItem {
-                            VStack{
+                            VStack {
                                 Image(systemName: "heart")
                                 Text("Избранное")
                             }
@@ -41,7 +41,7 @@ struct ContentView: View {
                     BasketView()
                         .tag("Корзина")
                         .tabItem {
-                            VStack{
+                            VStack {
                                 Image(systemName: "cart")
                                 Text("Корзина")
                             }

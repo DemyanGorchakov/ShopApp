@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ElectedView: View {
     var body: some View {
-        VStack{
+        VStack {
             Image("Selected")
                 .resizable()
                 .scaledToFit()

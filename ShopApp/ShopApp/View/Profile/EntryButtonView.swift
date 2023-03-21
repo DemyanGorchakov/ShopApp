@@ -9,9 +9,6 @@ import SwiftUI
 
 struct EntryButtonView: View {
     var body: some View {
-        Button {
-//
-        } label: {
             ZStack{
                 Rectangle()
                     .frame(width: UIScreen.main.bounds.width / 1.1, height: 60)
@@ -23,7 +20,6 @@ struct EntryButtonView: View {
             }
         }
     }
-}
 
 struct EntryButton_Previews: PreviewProvider {
     static var previews: some View {

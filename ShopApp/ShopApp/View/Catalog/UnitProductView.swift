@@ -13,12 +13,13 @@ struct UnitProductView: View {
     var description: String
     
     var body: some View {
-        HStack{
+        HStack {
             Image(imageCatalog)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 70, height: 70)
             Text(description)
+                .foregroundColor(.black)
         }
         .frame(width: UIScreen.main.bounds.width / 2.1, height: 100)
         Divider()

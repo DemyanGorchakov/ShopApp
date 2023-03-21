@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    var currentCountry = ""
+    
     var body: some View {
-        NavigationView{
             List{
-                NavigationLink(destination: ProfileView()) {
+                NavigationLink(destination: ListCountryView()) {
                     HStack{
                         Text("Мой город")
                         Spacer()
-                        Text("Санкт-Петербург")
+                        Text(currentCountry)
                     }
                 }
                 NavigationLink(destination: ProfileView()) {
@@ -40,7 +42,6 @@ struct ListView: View {
                 }
             }
             .listStyle(.inset)
-        }
     }
     
     struct List_Previews: PreviewProvider {
