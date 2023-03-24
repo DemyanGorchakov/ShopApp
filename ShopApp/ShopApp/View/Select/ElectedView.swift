@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ElectedView: View {
+    
+    @Binding var select: String
+    
     var body: some View {
         VStack {
             Image("Selected")
@@ -18,13 +21,13 @@ struct ElectedView: View {
                 .font(.system(size: 20))
                 .fontWeight(.medium)
             Text("Положите сюда свои будущие покупки")
-            ElectedButtonView()
+            ElectedButtonView(select: $select)
         }
     }
 }
 
-struct ElectedView_Previews: PreviewProvider {
-    static var previews: some View {
-        ElectedView()
-    }
-}
+//struct ElectedView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ElectedView()
+//    }
+//}

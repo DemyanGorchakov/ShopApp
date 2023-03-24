@@ -9,9 +9,11 @@ import SwiftUI
 
 struct BusketButton: View {
     
+    @Binding var select: String
+    
     var body: some View {
         Button {
-//            Каталог
+            select = "Каталог"
         } label: {
             ZStack{
                 Rectangle()
@@ -28,8 +30,8 @@ struct BusketButton: View {
     }
 }
 
-struct BusketButton_Previews: PreviewProvider {
-    static var previews: some View {
-        BusketButton()
-    }
-}
+//struct BusketButton_Previews: PreviewProvider {
+//    static var previews: some View {
+//        BusketButton()
+//    }
+//}

@@ -125,6 +125,15 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		A5A9AD9B29CD9F9900099D6F /* Select */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B1AD29B9D5680029285C /* ElectedView.swift */,
+				A5C4FB7029BE1FC200435495 /* ElectedButtonView.swift */,
+			);
+			path = Select;
+			sourceTree = "<group>";
+		};
 		A5E4556F29BC0B1F00213218 /* Basket */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,8 +195,7 @@
 				A5F0B19A29B9CEC70029285C /* ContentView.swift */,
 				A598D97F29BBC1BB007C9E8F /* Profile */,
 				A5F0B1B329B9FCDB0029285C /* Catalog */,
-				A5F0B1AD29B9D5680029285C /* ElectedView.swift */,
-				A5C4FB7029BE1FC200435495 /* ElectedButtonView.swift */,
+				A5A9AD9B29CD9F9900099D6F /* Select */,
 				A5E4556F29BC0B1F00213218 /* Basket */,
 				A5F0B1B129B9F2E60029285C /* TabItemView.swift */,
 			);

@@ -30,7 +30,7 @@ struct ContentView: View {
                                 Text("Каталог")
                             }
                         }
-                    ElectedView()
+                    ElectedView(select: $selection)
                         .tag("Избранное")
                         .tabItem {
                             VStack {
@@ -38,7 +38,7 @@ struct ContentView: View {
                                 Text("Избранное")
                             }
                         }
-                    BasketView()
+                    BasketView(select: $selection)
                         .tag("Корзина")
                         .tabItem {
                             VStack {

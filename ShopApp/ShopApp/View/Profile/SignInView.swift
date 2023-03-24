@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct SignInView: View {
-    
+        
     let fbManager = FirebaseManager()
+    
     @State var email: String = ""
     @State var password: String = ""
     
@@ -29,7 +30,6 @@ struct SignInView: View {
                 } label: {
                     Text("Войти")
                 }
-
             }
         }
         .padding()

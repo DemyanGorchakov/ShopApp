@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ElectedButtonView: View {
+    
+    @Binding var select: String
+    
     var body: some View {
         Button {
-//            Каталог
+            select = "Каталог"
         } label: {
             ZStack{
                 Rectangle()
@@ -26,8 +29,8 @@ struct ElectedButtonView: View {
     }
 }
 
-struct ElectedButton_Previews: PreviewProvider {
-    static var previews: some View {
-        ElectedButtonView()
-    }
-}
+//struct ElectedButton_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ElectedButtonView()
+//    }
+//}
