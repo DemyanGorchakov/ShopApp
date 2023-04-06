@@ -9,15 +9,20 @@ import SwiftUI
 
 struct ListCountryView: View {
     
+    @EnvironmentObject var currentCity: SelectedObject
+    
     var arrayCountry = ["Санкт-Петербург", "Москва", "Воронеж", "Волгоград", "Екатиренбург", "Казань", "Красноярск", "Новосибирск", "Нижний Новгород", "Омск", "Пермь", "Ростов-на-Дону", "Самара", "Челябинск", "Уфа"]
-        
+    
     var body: some View {
         VStack {
             VStack {
                 SearchBar()
                 List {
                     ForEach(arrayCountry, id: \.self) { item in
-                            Text(item)
+                        Text(item)
+                            .onTapGesture {
+                                currentCity.city = item
+                            }
                     }
                 }
                 .listStyle(.inset)

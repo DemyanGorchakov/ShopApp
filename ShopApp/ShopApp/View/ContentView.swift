@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var selection = "Каталог"
+    
+    @ObservedObject var signInObject = SignInObject()
     var tabView = ["Профиль", "Каталог", "Избранное", "Корзина"]
     
     var body: some View {
             VStack {
-                TabView(selection: $selection) {
+                TabView(selection: $signInObject.selected) {
                     ProfileView()
+                        .environmentObject(signInObject)
                         .tag("Профиль")
                         .tabItem {
                             VStack {
@@ -30,7 +32,7 @@ struct ContentView: View {
                                 Text("Каталог")
                             }
                         }
-                    ElectedView(select: $selection)
+                    ElectedView(select: $signInObject.selected)
                         .tag("Избранное")
                         .tabItem {
                             VStack {
@@ -38,7 +40,7 @@ struct ContentView: View {
                                 Text("Избранное")
                             }
                         }
-                    BasketView(select: $selection)
+                    BasketView(select: $signInObject.selected)
                         .tag("Корзина")
                         .tabItem {
                             VStack {

@@ -12,9 +12,9 @@ struct RegistrationView: View {
     
     let fbManager = FirebaseManager()
     
-    @State var email: String = ""
-    @State var password: String = ""
-    @State var userName: String = ""
+    @State var email = ""
+    @State var password = ""
+    @State var userName = ""
     
     var body: some View {
         VStack {
@@ -27,14 +27,13 @@ struct RegistrationView: View {
                     .padding()
                     .background(Color("Gray"))
                 
-                 SecureField("Password", text: $password)
+                SecureField("Password", text: $password)
                     .padding()
                     .background(Color("Gray"))
             }
             
             VStack {
                 Button {
-//                    условия корректности пароля
                     let userData = UserRegistData(email: email, password: password, name: userName)
                     fbManager.registrNewUser(userData: userData)
                 } label: {

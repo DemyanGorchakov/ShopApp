@@ -9,39 +9,42 @@ import SwiftUI
 
 struct ListView: View {
     
-    var currentCountry = ""
+    @ObservedObject var currentCity = SelectedObject()
+    
+    //    @State var currentCity: String = ""
     
     var body: some View {
-            List{
-                NavigationLink(destination: ListCountryView()) {
+        List{
+            NavigationLink(destination: ListCountryView()
+                .environmentObject(currentCity)) {
                     HStack{
                         Text("Мой город")
                         Spacer()
-                        Text(currentCountry)
+                        Text(currentCity.city)
                     }
                 }
-                NavigationLink(destination: ProfileView()) {
-                    HStack{
-                        Text("Сравнение")
-                    }
-                }
-                NavigationLink(destination: ProfileView()) {
-                    HStack{
-                        Text("Мои заказы")
-                    }
-                }
-                NavigationLink(destination: ProfileView()) {
-                    HStack{
-                        Text("Магазины и пункты выдачи")
-                    }
-                }
-                NavigationLink(destination: ProfileView()) {
-                    HStack{
-                        Text("Информация")
-                    }
+            NavigationLink(destination: ProfileView()) {
+                HStack{
+                    Text("Сравнение")
                 }
             }
-            .listStyle(.inset)
+            NavigationLink(destination: ProfileView()) {
+                HStack{
+                    Text("Мои заказы")
+                }
+            }
+            NavigationLink(destination: ProfileView()) {
+                HStack{
+                    Text("Магазины и пункты выдачи")
+                }
+            }
+            NavigationLink(destination: ProfileView()) {
+                HStack{
+                    Text("Информация")
+                }
+            }
+        }
+        .listStyle(.inset)
     }
     
     struct List_Previews: PreviewProvider {

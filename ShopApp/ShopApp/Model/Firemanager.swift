@@ -24,17 +24,20 @@ class FirebaseManager {
         }
     }
     
-    func signIn(email: String, password: String) {
+    func signIn(email: String, password: String, completion: @escaping (Bool) -> ()) {
         Auth.auth().signIn(withEmail: email, password: password) { res, err in
             if err == nil {
                 if let user = res?.user {
                     if user.isEmailVerified {
+                        UserDefaults.standard.set(true, forKey: "isLogin")
+                        completion(true)
                         print("Вы авторизованы")
                     } else {
                         print("Почта не подтверждена")
                     }
                 }
             } else {
+                completion(false)
                 print(err?.localizedDescription)
             }
         }

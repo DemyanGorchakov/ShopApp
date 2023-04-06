@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		A5185F5A29BA07D700642F34 /* UnitProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5185F5929BA07D700642F34 /* UnitProductView.swift */; };
 		A5185F5C29BA101200642F34 /* ListProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5185F5B29BA101200642F34 /* ListProductView.swift */; };
+		A538392029D0909E0024B9B9 /* SignInObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538391F29D0909E0024B9B9 /* SignInObject.swift */; };
+		A538392329D096410024B9B9 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A538392229D096410024B9B9 /* GreetingView.swift */; };
+		A538392629D30F990024B9B9 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A538392529D30F990024B9B9 /* KeychainSwift */; };
 		A569796429C9DAC300C4333F /* Firemanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569796329C9DAC300C4333F /* Firemanager.swift */; };
 		A569EA2329C89D84001C8815 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A569EA2229C89D84001C8815 /* FirebaseAuth */; };
 		A569EA2529C89D84001C8815 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A569EA2429C89D84001C8815 /* FirebaseDatabase */; };
@@ -18,7 +21,7 @@
 		A569EA2D29C9ADAB001C8815 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569EA2C29C9ADAB001C8815 /* RegistrationView.swift */; };
 		A569EA2F29C9B01A001C8815 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569EA2E29C9B01A001C8815 /* SignInView.swift */; };
 		A571CB1A29C470C00040B7FB /* ListCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB1929C470C00040B7FB /* ListCountryView.swift */; };
-		A571CB1D29C47D550040B7FB /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB1C29C47D550040B7FB /* Phone.swift */; };
+		A571CB1D29C47D550040B7FB /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB1C29C47D550040B7FB /* PhoneView.swift */; };
 		A571CB1F29C47D6C0040B7FB /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB1E29C47D6C0040B7FB /* TV.swift */; };
 		A571CB2129C47D9B0040B7FB /* ForKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB2029C47D9B0040B7FB /* ForKitchen.swift */; };
 		A571CB2329C47DB30040B7FB /* ForHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB2229C47DB30040B7FB /* ForHome.swift */; };
@@ -26,6 +29,10 @@
 		A571CB2729C47E120040B7FB /* Accessories.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB2629C47E120040B7FB /* Accessories.swift */; };
 		A571CB2929C486970040B7FB /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB2829C486970040B7FB /* ListItemView.swift */; };
 		A571CB2B29C486ED0040B7FB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CB2A29C486ED0040B7FB /* SearchBar.swift */; };
+		A5748FE829CF291400EE2ABA /* LinkProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5748FE729CF291400EE2ABA /* LinkProductView.swift */; };
+		A5748FF229CF348800EE2ABA /* ListPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5748FF129CF348800EE2ABA /* ListPhoneView.swift */; };
+		A5748FF429CF416700EE2ABA /* IphoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5748FF329CF416700EE2ABA /* IphoneView.swift */; };
+		A5C0F9E429D48AFD000E871C /* SelectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C0F9E329D48AFD000E871C /* SelectedObject.swift */; };
 		A5C4FB7129BE1FC200435495 /* ElectedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4FB7029BE1FC200435495 /* ElectedButtonView.swift */; };
 		A5C4FB7329BF396500435495 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4FB7229BF396500435495 /* ListView.swift */; };
 		A5E4556C29BBC24700213218 /* EntryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E4556B29BBC24700213218 /* EntryButtonView.swift */; };
@@ -45,12 +52,14 @@
 /* Begin PBXFileReference section */
 		A5185F5929BA07D700642F34 /* UnitProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitProductView.swift; sourceTree = "<group>"; };
 		A5185F5B29BA101200642F34 /* ListProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductView.swift; sourceTree = "<group>"; };
+		A538391F29D0909E0024B9B9 /* SignInObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInObject.swift; sourceTree = "<group>"; };
+		A538392229D096410024B9B9 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
 		A569796329C9DAC300C4333F /* Firemanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firemanager.swift; sourceTree = "<group>"; };
 		A569EA2A29C89E8F001C8815 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A569EA2C29C9ADAB001C8815 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		A569EA2E29C9B01A001C8815 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		A571CB1929C470C00040B7FB /* ListCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCountryView.swift; sourceTree = "<group>"; };
-		A571CB1C29C47D550040B7FB /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		A571CB1C29C47D550040B7FB /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
 		A571CB1E29C47D6C0040B7FB /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
 		A571CB2029C47D9B0040B7FB /* ForKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForKitchen.swift; sourceTree = "<group>"; };
 		A571CB2229C47DB30040B7FB /* ForHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForHome.swift; sourceTree = "<group>"; };
@@ -58,6 +67,10 @@
 		A571CB2629C47E120040B7FB /* Accessories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessories.swift; sourceTree = "<group>"; };
 		A571CB2829C486970040B7FB /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		A571CB2A29C486ED0040B7FB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A5748FE729CF291400EE2ABA /* LinkProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkProductView.swift; sourceTree = "<group>"; };
+		A5748FF129CF348800EE2ABA /* ListPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPhoneView.swift; sourceTree = "<group>"; };
+		A5748FF329CF416700EE2ABA /* IphoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IphoneView.swift; sourceTree = "<group>"; };
+		A5C0F9E329D48AFD000E871C /* SelectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedObject.swift; sourceTree = "<group>"; };
 		A5C4FB7029BE1FC200435495 /* ElectedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectedButtonView.swift; sourceTree = "<group>"; };
 		A5C4FB7229BF396500435495 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		A5E4556B29BBC24700213218 /* EntryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryButtonView.swift; sourceTree = "<group>"; };
@@ -82,6 +95,7 @@
 			files = (
 				A569EA2529C89D84001C8815 /* FirebaseDatabase in Frameworks */,
 				A569EA2929C89D84001C8815 /* FirebaseStorage in Frameworks */,
+				A538392629D30F990024B9B9 /* KeychainSwift in Frameworks */,
 				A569EA2329C89D84001C8815 /* FirebaseAuth in Frameworks */,
 				A569EA2729C89D84001C8815 /* FirebaseFirestore in Frameworks */,
 			);
@@ -90,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A538392129D095660024B9B9 /* PrifileView */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B1A929B9D51F0029285C /* ProfileView.swift */,
+				A538392229D096410024B9B9 /* GreetingView.swift */,
+			);
+			path = PrifileView;
+			sourceTree = "<group>";
+		};
 		A571CB1829C470820040B7FB /* ListConfigView */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,20 +125,70 @@
 		A571CB1B29C47D0C0040B7FB /* CatalogItemView */ = {
 			isa = PBXGroup;
 			children = (
-				A571CB1C29C47D550040B7FB /* Phone.swift */,
-				A571CB1E29C47D6C0040B7FB /* TV.swift */,
-				A571CB2229C47DB30040B7FB /* ForHome.swift */,
-				A571CB2029C47D9B0040B7FB /* ForKitchen.swift */,
-				A571CB2429C47DF20040B7FB /* ForGamers.swift */,
-				A571CB2629C47E120040B7FB /* Accessories.swift */,
+				A5748FE629CF256700EE2ABA /* Phone */,
+				A5748FEB29CF33FD00EE2ABA /* TV */,
+				A5748FEC29CF340A00EE2ABA /* ForHome */,
+				A5748FED29CF341C00EE2ABA /* ForKitchen */,
+				A5748FEE29CF343500EE2ABA /* ForGamers */,
+				A5748FEF29CF344800EE2ABA /* Accessories */,
 			);
 			path = CatalogItemView;
+			sourceTree = "<group>";
+		};
+		A5748FE629CF256700EE2ABA /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				A571CB1C29C47D550040B7FB /* PhoneView.swift */,
+				A5748FF129CF348800EE2ABA /* ListPhoneView.swift */,
+				A5748FF329CF416700EE2ABA /* IphoneView.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		A5748FEB29CF33FD00EE2ABA /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				A571CB1E29C47D6C0040B7FB /* TV.swift */,
+			);
+			path = TV;
+			sourceTree = "<group>";
+		};
+		A5748FEC29CF340A00EE2ABA /* ForHome */ = {
+			isa = PBXGroup;
+			children = (
+				A571CB2229C47DB30040B7FB /* ForHome.swift */,
+			);
+			path = ForHome;
+			sourceTree = "<group>";
+		};
+		A5748FED29CF341C00EE2ABA /* ForKitchen */ = {
+			isa = PBXGroup;
+			children = (
+				A571CB2029C47D9B0040B7FB /* ForKitchen.swift */,
+			);
+			path = ForKitchen;
+			sourceTree = "<group>";
+		};
+		A5748FEE29CF343500EE2ABA /* ForGamers */ = {
+			isa = PBXGroup;
+			children = (
+				A571CB2429C47DF20040B7FB /* ForGamers.swift */,
+			);
+			path = ForGamers;
+			sourceTree = "<group>";
+		};
+		A5748FEF29CF344800EE2ABA /* Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				A571CB2629C47E120040B7FB /* Accessories.swift */,
+			);
+			path = Accessories;
 			sourceTree = "<group>";
 		};
 		A598D97F29BBC1BB007C9E8F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				A5F0B1A929B9D51F0029285C /* ProfileView.swift */,
+				A538392129D095660024B9B9 /* PrifileView */,
 				A569EA2C29C9ADAB001C8815 /* RegistrationView.swift */,
 				A569EA2E29C9B01A001C8815 /* SignInView.swift */,
 				A5E4556B29BBC24700213218 /* EntryButtonView.swift */,
@@ -164,7 +237,6 @@
 			children = (
 				A5F0B1A829B9D4A30029285C /* Model */,
 				A5F0B1A729B9D49E0029285C /* View */,
-				A5F0B1A629B9D4830029285C /* ViewModel */,
 				A5F0B19829B9CEC70029285C /* ShopAppApp.swift */,
 				A5F0B19C29B9CEC90029285C /* Assets.xcassets */,
 				A569EA2A29C89E8F001C8815 /* GoogleService-Info.plist */,
@@ -179,13 +251,6 @@
 				A5F0B19F29B9CEC90029285C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A5F0B1A629B9D4830029285C /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		A5F0B1A729B9D49E0029285C /* View */ = {
@@ -206,6 +271,8 @@
 			isa = PBXGroup;
 			children = (
 				A569796329C9DAC300C4333F /* Firemanager.swift */,
+				A538391F29D0909E0024B9B9 /* SignInObject.swift */,
+				A5C0F9E329D48AFD000E871C /* SelectedObject.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,6 +282,7 @@
 			children = (
 				A5F0B1AB29B9D5390029285C /* CatalogView.swift */,
 				A571CB1B29C47D0C0040B7FB /* CatalogItemView */,
+				A5748FE729CF291400EE2ABA /* LinkProductView.swift */,
 				A5185F5929BA07D700642F34 /* UnitProductView.swift */,
 				A5185F5B29BA101200642F34 /* ListProductView.swift */,
 				A571CB2829C486970040B7FB /* ListItemView.swift */,
@@ -243,6 +311,7 @@
 				A569EA2429C89D84001C8815 /* FirebaseDatabase */,
 				A569EA2629C89D84001C8815 /* FirebaseFirestore */,
 				A569EA2829C89D84001C8815 /* FirebaseStorage */,
+				A538392529D30F990024B9B9 /* KeychainSwift */,
 			);
 			productName = ShopApp;
 			productReference = A5F0B19529B9CEC70029285C /* ShopApp.app */;
@@ -274,6 +343,7 @@
 			mainGroup = A5F0B18C29B9CEC70029285C;
 			packageReferences = (
 				A569EA2129C89D84001C8815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A538392429D30F980024B9B9 /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			productRefGroup = A5F0B19629B9CEC70029285C /* Products */;
 			projectDirPath = "";
@@ -302,18 +372,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5748FE829CF291400EE2ABA /* LinkProductView.swift in Sources */,
 				A571CB1F29C47D6C0040B7FB /* TV.swift in Sources */,
-				A571CB1D29C47D550040B7FB /* Phone.swift in Sources */,
+				A571CB1D29C47D550040B7FB /* PhoneView.swift in Sources */,
 				A5E4556C29BBC24700213218 /* EntryButtonView.swift in Sources */,
 				A571CB2929C486970040B7FB /* ListItemView.swift in Sources */,
+				A5748FF429CF416700EE2ABA /* IphoneView.swift in Sources */,
 				A5185F5A29BA07D700642F34 /* UnitProductView.swift in Sources */,
 				A5F0B1B029B9D5910029285C /* BasketView.swift in Sources */,
 				A569EA2D29C9ADAB001C8815 /* RegistrationView.swift in Sources */,
 				A569796429C9DAC300C4333F /* Firemanager.swift in Sources */,
+				A538392029D0909E0024B9B9 /* SignInObject.swift in Sources */,
 				A5F0B1B229B9F2E60029285C /* TabItemView.swift in Sources */,
 				A5185F5C29BA101200642F34 /* ListProductView.swift in Sources */,
 				A569EA2F29C9B01A001C8815 /* SignInView.swift in Sources */,
 				A5F0B19B29B9CEC70029285C /* ContentView.swift in Sources */,
+				A5C0F9E429D48AFD000E871C /* SelectedObject.swift in Sources */,
 				A571CB2529C47DF20040B7FB /* ForGamers.swift in Sources */,
 				A5C4FB7129BE1FC200435495 /* ElectedButtonView.swift in Sources */,
 				A571CB1A29C470C00040B7FB /* ListCountryView.swift in Sources */,
@@ -323,8 +397,10 @@
 				A5F0B1AE29B9D5680029285C /* ElectedView.swift in Sources */,
 				A571CB2B29C486ED0040B7FB /* SearchBar.swift in Sources */,
 				A5C4FB7329BF396500435495 /* ListView.swift in Sources */,
+				A538392329D096410024B9B9 /* GreetingView.swift in Sources */,
 				A5F0B1AC29B9D5390029285C /* CatalogView.swift in Sources */,
 				A571CB2729C47E120040B7FB /* Accessories.swift in Sources */,
+				A5748FF229CF348800EE2ABA /* ListPhoneView.swift in Sources */,
 				A5E4556E29BC024400213218 /* RegisterButtonView.swift in Sources */,
 				A5F0B19929B9CEC70029285C /* ShopAppApp.swift in Sources */,
 				A5E4557129BC0BF500213218 /* BusketButton.swift in Sources */,
@@ -534,6 +610,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A538392429D30F980024B9B9 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		A569EA2129C89D84001C8815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -545,6 +629,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A538392529D30F990024B9B9 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A538392429D30F980024B9B9 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
 		A569EA2229C89D84001C8815 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A569EA2129C89D84001C8815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

@@ -9,10 +9,8 @@ import SwiftUI
 
 struct Phone: View {
     var body: some View {
-        VStack {
-            SearchBar()
-            
-            NavigationView {
+//        NavigationView {
+            VStack {
                 HStack{
                     Text("Смартфоны и гаджеты")
                         .fontWeight(.bold)
@@ -22,13 +20,9 @@ struct Phone: View {
                         .scaledToFit()
                         .frame(width: 90, height: 90)
                 }
-                List {
-//                    NavigationLink(destination: )
-                    
-                }
+                ListPhone()
             }
-            
-        }
+//        }
     }
     
     struct Phone_Previews: PreviewProvider {
